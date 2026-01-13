@@ -1,0 +1,7 @@
+|--- diabetes_type <= 0.50
+|   |--- class: 0
+|--- diabetes_type >  0.50
+|   |--- age <= 71.50
+|   |   |--- class: 1
+|   |--- age >  71.50
+|   |   |--- class: 1

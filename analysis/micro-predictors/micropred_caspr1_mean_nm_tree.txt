@@ -1,0 +1,10 @@
+|--- sas <= 0.500
+|   |--- duration_months <= 18.000
+|   |   |--- class: 0
+|   |--- duration_months >  18.000
+|   |   |--- class: 0
+|--- sas >  0.500
+|   |--- duration_months <= 30.000
+|   |   |--- class: 1
+|   |--- duration_months >  30.000
+|   |   |--- class: 1

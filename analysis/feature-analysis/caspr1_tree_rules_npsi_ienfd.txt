@@ -1,0 +1,8 @@
+Median threshold: 280.910
+|--- npsi <= 2.50
+|   |--- ienfd_per_mm <= 2.20
+|   |   |--- class: 0
+|   |--- ienfd_per_mm >  2.20
+|   |   |--- class: 1
+|--- npsi >  2.50
+|   |--- class: 1

@@ -1,0 +1,25 @@
+feature_set,n_samples,features,max_depth,min_samples_leaf,auc_loocv,acc_loocv
+NPSI + IENFD + age + duration,35,"npsi,ienfd_per_mm,age,duration_months",3,3,0.8447712418300654,0.8
+NPSI + IENFD + age + duration,35,"npsi,ienfd_per_mm,age,duration_months",3,2,0.8202614379084967,0.7714285714285715
+NPSI + IENFD + age + duration,35,"npsi,ienfd_per_mm,age,duration_months",2,2,0.7941176470588236,0.8285714285714286
+NPSI + IENFD + age + duration,35,"npsi,ienfd_per_mm,age,duration_months",2,3,0.7941176470588236,0.8285714285714286
+NPSI + IENFD + duration,35,"npsi,ienfd_per_mm,duration_months",3,2,0.7843137254901961,0.7714285714285715
+NPSI + IENFD + duration,35,"npsi,ienfd_per_mm,duration_months",3,3,0.7843137254901961,0.7714285714285715
+NPSI + IENFD + duration,35,"npsi,ienfd_per_mm,duration_months",2,2,0.7761437908496731,0.8285714285714286
+NPSI + IENFD + duration,35,"npsi,ienfd_per_mm,duration_months",2,3,0.7761437908496731,0.8285714285714286
+NPSI + IENFD + age,35,"npsi,ienfd_per_mm,age",3,3,0.7549019607843137,0.6857142857142857
+NPSI + IENFD + age,35,"npsi,ienfd_per_mm,age",3,2,0.7303921568627451,0.6857142857142857
+NPSI + IENFD,35,"npsi,ienfd_per_mm",2,2,0.7287581699346406,0.7428571428571429
+NPSI + IENFD,35,"npsi,ienfd_per_mm",2,3,0.7287581699346406,0.7428571428571429
+NPSI + IENFD + age,35,"npsi,ienfd_per_mm,age",2,2,0.7287581699346406,0.7428571428571429
+NPSI + IENFD + age,35,"npsi,ienfd_per_mm,age",2,3,0.7287581699346406,0.7428571428571429
+NPSI + IENFD,35,"npsi,ienfd_per_mm",3,2,0.7287581699346406,0.7428571428571429
+NPSI + IENFD,35,"npsi,ienfd_per_mm",3,3,0.7156862745098039,0.6857142857142857
+NPSI + IENFD + duration,35,"npsi,ienfd_per_mm,duration_months",1,2,0.6797385620915032,0.8285714285714286
+NPSI + IENFD + duration,35,"npsi,ienfd_per_mm,duration_months",1,3,0.6797385620915032,0.8285714285714286
+NPSI + IENFD + age + duration,35,"npsi,ienfd_per_mm,age,duration_months",1,2,0.6797385620915032,0.8285714285714286
+NPSI + IENFD + age + duration,35,"npsi,ienfd_per_mm,age,duration_months",1,3,0.6797385620915032,0.8285714285714286
+NPSI + IENFD,35,"npsi,ienfd_per_mm",1,2,0.5,0.7428571428571429
+NPSI + IENFD,35,"npsi,ienfd_per_mm",1,3,0.5,0.7428571428571429
+NPSI + IENFD + age,35,"npsi,ienfd_per_mm,age",1,2,0.5,0.7428571428571429
+NPSI + IENFD + age,35,"npsi,ienfd_per_mm,age",1,3,0.5,0.7428571428571429

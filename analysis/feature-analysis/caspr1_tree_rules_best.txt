@@ -1,0 +1,19 @@
+Target: caspr1_mean_nm
+Threshold: 280.910000
+Features: group, nis_ll
+max_depth=3, min_samples_leaf=2
+LOOCV AUC=1.000000, Acc=0.885714
+
+|--- group <= 0.500
+|   |--- class: 0
+|--- group >  0.500
+|   |--- nis_ll <= 8.000
+|   |   |--- nis_ll <= 1.500
+|   |   |   |--- class: 1
+|   |   |--- nis_ll >  1.500
+|   |   |   |--- class: 1
+|   |--- nis_ll >  8.000
+|   |   |--- nis_ll <= 11.750
+|   |   |   |--- class: 0
+|   |   |--- nis_ll >  11.750
+|   |   |   |--- class: 1

@@ -1,0 +1,10 @@
+|--- n_nodes_examined <= 1.50
+|   |--- duration_months <= 35.50
+|   |   |--- value: [521.11]
+|   |--- duration_months >  35.50
+|   |   |--- value: [377.26]
+|--- n_nodes_examined >  1.50
+|   |--- nis_ll <= 5.50
+|   |   |--- value: [281.14]
+|   |--- nis_ll >  5.50
+|   |   |--- value: [371.77]

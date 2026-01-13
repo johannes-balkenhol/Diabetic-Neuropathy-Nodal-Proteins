@@ -1,0 +1,12 @@
+feature,n0,n1,min0,max0,min1,max1,perfect_separation,near_separation_5_95
+duration_months,13,22,0.0,0.0,0.0,360.0,False,True
+age,13,22,32.0,75.0,22.0,84.0,False,False
+sex,13,22,0.0,1.0,0.0,1.0,False,False
+snap_sural_nerve,13,22,2.4,2.4,0.0,34.3,False,False
+hba1c_pct,13,22,6.125,6.125,4.9,9.8,False,False
+nis_ll,13,22,0.0,0.0,0.0,25.0,False,False
+sas,13,22,0.0,0.0,0.0,32.0,False,False
+npsi,13,22,0.0,0.0,0.0,49.0,False,False
+nf155_mean_nm,13,19,174.72118,252.82,226.49,542.21,False,False
+nf186_mean_nm,13,19,174.72118,252.82,226.49,542.21,False,False
+caspr1_mean_nm,13,19,174.1,250.75,189.21,532.12,False,False

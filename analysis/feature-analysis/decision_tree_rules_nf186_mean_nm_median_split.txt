@@ -1,0 +1,7 @@
+|--- nis_ll <= 2.50
+|   |--- snap_sural_nerve <= 7.40
+|   |   |--- class: 0
+|   |--- snap_sural_nerve >  7.40
+|   |   |--- class: 1
+|--- nis_ll >  2.50
+|   |--- class: 1

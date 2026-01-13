@@ -1,0 +1,4 @@
+|--- duration_months <= 0.500
+|   |--- class: 0
+|--- duration_months >  0.500
+|   |--- class: 1

@@ -1,0 +1,7 @@
+|--- nis_ll <= 14.00
+|   |--- duration_months <= 150.00
+|   |   |--- value: [288.66]
+|   |--- duration_months >  150.00
+|   |   |--- value: [386.60]
+|--- nis_ll >  14.00
+|   |--- value: [516.06]

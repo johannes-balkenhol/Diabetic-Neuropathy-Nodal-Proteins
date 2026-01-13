@@ -1,0 +1,6 @@
+Feature,n used,AUC [95% CI],Youden cutoff,Sensitivity,Specificity,Leak flag
+nf155_mean_nm,31,1.00 [0.96–1.00],>= 253,0.94,1.00,Near
+nf186_mean_nm,31,1.00 [0.96–1.00],>= 253,0.94,1.00,Near
+duration_months,36,0.98 [0.93–1.00],>= 1,0.95,1.00,Near
+caspr1_mean_nm,33,0.94 [0.83–1.00],>= 278,0.86,1.00,
+ienfd_per_mm,27,0.78 [0.55–0.95],<= -2.67,0.50,1.00,

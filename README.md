@@ -75,7 +75,7 @@ upon reasonable request, subject to ethics approval.
 
 ---
 
-## Contributors
+
 
 - Johannes Balkenhol — ACF analysis, feature extraction, clinical correlation
 - Vinicius Da Cruz — ROI detection pipeline (`Node-localization-perioddicity_measure.ipynb`)
@@ -92,3 +92,31 @@ Citation will be added upon publication.
 
 Code: MIT  
 Data: CC-BY-4.0 (via BioImage Archive, upon release)
+
+## Contributors
+
+- **Johannes Balkenhol** — automatic ROI detection pipeline, ACF analysis,
+  midline profile feature extraction, clinical correlation analysis
+  (`code/acf_pipeline/acf_v4_final.ipynb`,
+   `code/feature_analysis/`,
+   `code/clinical_correlation/`)
+
+- **Vinicius Da Cruz** — dSTORM experiments, manual ROI selection and
+  quality control
+
+- **Thomas Peulen** — original ROI localisation concept
+  (`code/feature_analysis/profile_feature_extraction.ipynb`,
+   based on `Node-localization-perioddicity_measure.ipynb`)
+
+## Note on script naming
+
+`scripts/` contains symlinks with original development names for daily use.
+`code/` contains the same files with publication-ready names — these are
+what is tracked in git and should be cited.
+
+| Publication name | Original name |
+|---|---|
+| `code/acf_pipeline/acf_v4_final.ipynb` | `mps_explorer_v23.ipynb` |
+| `code/feature_analysis/profile_feature_extraction.ipynb` | `Node-localization-perioddicity_measure.ipynb` |
+| `code/feature_analysis/periodicity_visual_feedback.ipynb` | `Periodicity_Visual_Feedback.ipynb` |
+| `code/clinical_correlation/feature-ACF-correlation-clean.ipynb` | `feature-ACF-correlation.ipynb` |

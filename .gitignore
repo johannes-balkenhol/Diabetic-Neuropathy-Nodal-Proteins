@@ -1,0 +1,12 @@
+scripts/
+**/__pycache__/
+**/.ipynb_checkpoints/
+data/processed/
+results/figures/diagnostics/
+data/mps_output/
+data/processed/
+results/figures/diagnostics/
+data/mps_output/
+data/processed/*
+!results/figures/diagnostics/README.md
+!data/processed/README.md

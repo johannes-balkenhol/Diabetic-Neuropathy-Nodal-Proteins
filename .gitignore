@@ -10,3 +10,4 @@ data/mps_output/
 data/processed/*
 !results/figures/diagnostics/README.md
 !data/processed/README.md
+code/_archive/
